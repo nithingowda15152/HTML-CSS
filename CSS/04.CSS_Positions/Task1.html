@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Use of Z-index</title>
+    <style>
+        .items{
+            height: 200px;
+            width:200px;
+            border:2px solid black;
+        }
+        #d1{
+            background-color: red;
+            z-index:3;
+            position: fixed;
+            top:0px;
+        }
+        #d2{
+            background-color: blue;
+            position: fixed;
+            top:100px;
+            left:100px;
+            z-index:2;
+        }
+        #d3{
+            background-color: yellow;
+            position: fixed;
+            top: 200px;
+            left:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="items" id="d1"></div>
+    <div class="items" id="d2"></div>
+    <div class="items" id="d3"></div>
+    <div class="items" id="d4"></div>
+</body>
+</html>
