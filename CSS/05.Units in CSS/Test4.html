@@ -1,0 +1,25 @@
+<!-- This example is mainly to explain the DISADVANTAGE of em 
+*There is one problem in using unit em, i.e, SNOW-BALL EFFECT
+*The inner elements doesnt take the font size of root element 
+*So to resolve this problem, the unit rem came into effect.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Units</title>
+    <style>
+        div{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <section>section
+        <div>div 1
+            <div>div 2
+                <div>div3</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
