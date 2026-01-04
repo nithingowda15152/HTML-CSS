@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+    .container{
+        height: 450px;
+        width: 50%;
+        background-color: azure;
+        margin: 10px auto;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        /* align-items: flex-start;
+        align-items: flex-end;
+        align-items: stretch;
+        align-items: center; */
+        align-items: baseline;
+    }
+    h1{
+        text-align: center;
+    }
+    div{
+        height: 120px;
+        width:450px;
+        color:white;
+        text-align: center;
+        font-size: 1.5em;
+
+
+    }
+</style>
+</head>
+<body>
+    <h1>FlexBox Playground</h1>
+    <div class="container">
+    <div style="background-color: violet;">violet</div>
+    <div style="background-color: green;">green</div>
+    <div style="background-color: yellow; height: 200px;">yellow</div>
+    <div style="background-color: black;">black</div>
+    <div style="background-color: red;">red</div>
+    <div style="background-color: pink; height: 75px;">pink</div>
+    <div style="background-color: lightcoral;">brown</div>
+    </div>
+</body>
+</html>
