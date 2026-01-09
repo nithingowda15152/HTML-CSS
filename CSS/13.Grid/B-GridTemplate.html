@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+    .container{
+        width: 600px;
+        height: 300px;
+        background-color: rgb(147, 169, 232);
+        display: grid;
+        grid-template-rows: 50px 50px 50px 50px;
+        /* grid-template-columns: 100px 100px 100px; */
+        /* grid-template-columns: auto auto auto auto; */
+
+        /* Template Repeat */
+        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+    .item{
+        /* width: 100px;
+        height: 50px; */
+        background-color: greenyellow;
+        border: 2px solid black;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h1>Grid Playground</h1>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
