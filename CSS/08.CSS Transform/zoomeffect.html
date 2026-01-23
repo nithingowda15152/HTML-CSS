@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoom effect</title>
+    <style>
+        section{
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        section img{
+            height: inherit;
+            width: inherit;
+            border-radius: inherit;
+            transition: transform 2s;
+        }
+        section img:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="https://thumbs.dreamstime.com/b/photo-image-funny-asian-man-shrug-shoulder-up-gesture-showing-i-don-t-know-rejection-asian-man-shrug-gesture-103637873.jpg"/>
+    </section>
+</body>
+</html>
